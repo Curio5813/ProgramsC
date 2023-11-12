@@ -1,2 +1,3 @@
 # ProgramsC
-Programing in C
+This repository is dedicated to learn C Language.
+
