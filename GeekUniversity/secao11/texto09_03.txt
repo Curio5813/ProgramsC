@@ -1,0 +1,4 @@
+Hello there how it's going?
+Are you gonna to code today?
+Yes! I'll code today.
+I need to debug some programs.

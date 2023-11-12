@@ -1,0 +1,9 @@
+sintra	388767
+gaia	307563
+porto	240592
+cascais	213928
+loures	203724
+braga	197594
+lisboa	548703
+almada	178254
+amadora	174511
