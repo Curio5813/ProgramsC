@@ -5,7 +5,7 @@
 
 int main(){
 
-    FILE *arquivo = fopen("/home/marcos/Computacao/ProgramsC/Program/texto11.txt", "r");
+    FILE *arquivo = fopen("texto11.txt", "r");
 
     if (arquivo == NULL) {
         perror("Erro ao abrir o arquivo");
