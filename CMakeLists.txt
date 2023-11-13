@@ -4,4 +4,5 @@ project(Program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Program
-        teste11.c)
+        exercicio12.c
+)

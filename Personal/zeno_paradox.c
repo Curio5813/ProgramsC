@@ -18,14 +18,14 @@ int main(){
 		if(cont == 1000000){
 
 			printf("This is a convergent geometric progression, and its "
-					"value converges to %.2llf\n\n", zeno);
+					"value converges to %.2llf\n", zeno);
 			return printf("Zeno will never reach the turtle. Altogether "
-					"Zeno ran %llf metres in %lld leaps.", zeno, cont);
+					"Zeno ran %.2llf metres in %lld leaps.", zeno, cont);
 
 		}
 
 	}printf("Zeno needs %lld leaps to reach the turtle and will reach the "
-			"turtle at the distance %llf metres.", cont, zeno);
+			"turtle at the distance %.2llf metres.", cont, zeno);
 
 	return 0;
 }
