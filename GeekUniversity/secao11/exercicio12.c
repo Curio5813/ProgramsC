@@ -8,21 +8,20 @@
 int main(){
 
     FILE *arq;
-    int ch = 0, pal = 0, lin = 0, cont = 0;
-    char texto[1000][1000], c;
+    int c = 0, pal = 0, lin = 0, cont = 0;
+    char ch;
 
     arq = fopen("texto11.txt", "r");
 
     if(arq){
-        c = getc(arq);
-        while(fscanf(arq, "%s", texto[cont]) != EOF && fscanf(arq, "%c", &c) != EOF){
-            ch += 1;
-            if(c == ' ' || c == '\n'){
+        while((ch = fgetc(arq)) != EOF){
+            c += 1;
+            if(ch == ' ' || ch == '\n'){
                 pal += 1;
-            }if(c == '\n'){
+            }if(ch == '\n'){
                 lin += 1;
             }
-        }printf("O arquivo tem %d carateres %d palavras e %d linhas\n", ch, pal, lin);
+        }printf("O arquivo tem %d carateres %d palavras e %d linhas\n", c, pal, lin);
 
     }else{
         printf("Arquivo não encontrado!");
