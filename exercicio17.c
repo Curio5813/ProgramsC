@@ -27,6 +27,7 @@ int main(){
         }dim[n1] = '\0';
         printf("%s\n", dim);
         tam = strlen(dim);
+        printf("%d\n", tam);
 
         char *ptr;
 
@@ -34,13 +35,14 @@ int main(){
 
         n2 = ((tam - 3) / 2) - 1;
 
-        for(int i = 0; i < tam; i++){
+        int i = 0;
+        while(i < tam){
             if(i < tam - 3){
                 pos2[n2] = matriz1 % 10;
                 matriz1 /= 10;
                 pos1[n2] = matriz1 % 10;
                 matriz1 /= 10;
-                i += post;
+                i += 2;
                 n2 -= 1;
             }else{
                 post = matriz1 % 10;
