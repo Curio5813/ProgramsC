@@ -23,7 +23,6 @@ int main(){
                 n1++;
             }
 
-
         }dim[n1] = '\0';
         printf("%s\n", dim);
         tam = strlen(dim);
@@ -78,6 +77,7 @@ int main(){
     }
 
     fclose(arq1);
+    fclose(arq2);
 
     return 0;
 }
