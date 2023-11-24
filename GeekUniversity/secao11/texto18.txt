@@ -1,0 +1,4 @@
+Notebook    450.10
+Tablet      380.32
+Kindle      200.45
+T-Shirts    49.99
