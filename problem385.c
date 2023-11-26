@@ -9,23 +9,25 @@ int main(){
      steps[1000], n2 = 0, tam;
 
      while(i <= 10000){
-         while(k <= 10000){
+         while(k <= 1000000){
+             step = 0;
              if(k > i){
                  y = i;
                  x = k;
                  resto = x % y;
+                 step += 1;
                  while(resto != 0) {
                      x = y;
                      y = resto;
                      resto = x % y;
                      step += 1;
-                 }if(step >= 1){
+                 }if(step >= 20){
                      printf("%d %d %d\n", k, i, step);
+                     break;
                  }
-                 step = 0;
              }k += 1;
          }i += 1;
-         k = 1;
+         k = i;
      }
 
     return 0;
