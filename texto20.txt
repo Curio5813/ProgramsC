@@ -1,0 +1,4 @@
+Pedro		9.1
+Lanna		8.5
+Renata		9.2
+Felipe		8.5

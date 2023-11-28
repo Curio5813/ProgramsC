@@ -3,39 +3,37 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 
 int main(){
 
     FILE * arq;
-    int tam = 3;
+    int tam = 4, cont = 0;
     float notas[tam];
-    char aluno[tam + 1][10], linha[1000];
+    char aluno[tam][10], linha[1000], str[20];
 
     arq = fopen("texto20.txt", "w");
 
-    aluno[0][10] = '\0';
-
-
     printf("Disciplina de Matemática\n");
-    for(int i = 1; i <= tam + 1; i++){
+    for(int i = 0; i < tam; i++){
         printf("Qual o nome do aluno: ");
         scanf("%s", &aluno[i][10]);
 
-    }aluno[tam + 1][10] = '\0';
-    printf("\n");
-    for(int i = 0; i < tam; i++){
+    }printf("\n");
+    for(int i = 0; i < tam; i++) {
         printf("Qual a nota final do %dº aluno: ", i + 1);
         scanf("%f", &notas[i]);
 
-    }for(int i = 1; i <= tam + 1; i++){
-        printf("%s\n", aluno[i]);
+    }while(cont < tam){
+        cont += 1;
+        fputs(aluno[cont], arq);
+        fputc('\t', arq);
+        fputc('\t', arq);
+        gcvt(notas[cont - 1], 4, str);
+        fputs(str, arq);
+        fputc('\n', arq);
     }
-    printf("\n");
-    for(int i = 0; i < tam; i++) {
-        printf("%.1f\n", notas[i]);
-    }
+    fclose(arq);
 
     return 0;
 }
