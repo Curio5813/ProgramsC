@@ -1,5 +1,5 @@
 //
-// Created by marcos on 27-11-2023.
+// Created by marcos on 29-11-2023.
 //
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,9 +10,9 @@ int main(){
     FILE * arq;
     int tam = 4, cont = 0;
     float notas[tam];
-    char aluno[tam][10], linha[1000], str[20];
+    char aluno[tam][10], str[20];
 
-    arq = fopen("texto20.txt", "w");
+    arq = fopen("texto21.txt", "w");
 
     printf("Disciplina de Matemática\n");
     for(int i = 0; i < tam; i++){

@@ -14,8 +14,8 @@ int main(){
     char c, linha[1000];
 
     arq = fopen("texto19.txt", "r");
-    aux1 = fopen("texto_aux1_19.txt", "w");
-    aux2 = fopen("texto_aux2_19.txt", "w");
+    aux1 = fopen("texto19_aux1.txt", "w");
+    aux2 = fopen("texto19_aux2.txt", "w");
 
     if(arq){
         while((c = fgetc(arq)) != EOF){
@@ -45,8 +45,8 @@ int main(){
     fclose(aux1);
     fclose(aux2);
 
-    aux2 = fopen("texto_aux2_19.txt", "r");
-    aux3 = fopen("texto_aux3_19.txt", "w");
+    aux2 = fopen("texto19_aux2.txt", "r");
+    aux3 = fopen("texto19_aux3.txt", "w");
     while(fgets(linha, sizeof(linha), aux2) != NULL){
         qt += 1;
         if(qt == 2){
@@ -60,8 +60,8 @@ int main(){
     }qt = 0;
     fclose(aux2);
     fclose(aux3);
-    aux1 = fopen("texto_aux1_19.txt", "r");
-    aux3 = fopen("texto_aux3_19.txt", "r");
+    aux1 = fopen("texto19_aux1.txt", "r");
+    aux3 = fopen("texto19_aux3.txt", "r");
 
     while((fgets(linha, sizeof(linha), aux1)) != NULL){
         nota = atof(linha);

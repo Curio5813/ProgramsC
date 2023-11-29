@@ -1,0 +1,4 @@
+PEDRO       9 8 9
+MARIA       8 7 9
+FERNANDO    7 6 9
+LANNA       8 7 9

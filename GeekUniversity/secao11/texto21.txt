@@ -1,0 +1,4 @@
+Pedro		9.2
+Lanna		9.7
+Renata		7.2
+Thiago		9.8

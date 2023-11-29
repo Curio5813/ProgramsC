@@ -12,7 +12,7 @@ int main() {
 
     FILE *arq; FILE *aux;
     arq = fopen("texto18.txt", "r");
-    aux = fopen("texto_aux18.txt", "w");
+    aux = fopen("texto18_aux.txt", "w");
 
     if (arq == NULL) {
         printf("Arquivo Inexistente");
@@ -31,7 +31,7 @@ int main() {
     fclose(arq);
     fclose(aux);
 
-    aux = fopen("texto_aux18.txt", "r");
+    aux = fopen("texto18_aux.txt", "r");
     if (aux == NULL) {
         printf("Arquivo Inexistente");
     } else {
