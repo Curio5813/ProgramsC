@@ -9,8 +9,9 @@
 int main(){
 
     FILE *arq1; FILE *arq2; FILE *aux1; FILE *aux2;
-    int nota[4], notas[4][3], i = 0;
-    char alunos[4][20], entrada[20], saida[20], ch, linha[1000][1000];
+    int tam = 5, nota[tam], notas[tam][3], ord_notas[tam][3], i, k, resto, maior = 0, menor = 11,
+    meio, n1 = 0 ;
+    char entrada[20], saida[20], ch, linha[1000][1000];
 
     printf("Qual o nome do arquivo de entrada? ");
     scanf("%s", &entrada);
@@ -51,13 +52,55 @@ int main(){
     aux2 = fopen("texto22_aux2.txt", "r");
 
     while((fgets(linha[100], sizeof(linha[100]), aux2)) != NULL) {
-        if(i >= 4){
+        if(i >= tam){
             break;
         }
         nota[i] = atoi(linha[100]);
-        printf("%d\n", nota[i]);
         i++;
 
+    }for(i = 0; i < tam; i++) {
+        for (k = 2; k >= 0; k--) {
+            resto = nota[i] % 10;
+            nota[i] = nota[i] / 10;
+            notas[i][k] = resto;
+        }
+
+    }for(i = 0; i < tam; i++){
+        for(k = 0; k < 3; k++){
+            if(notas[i][k] > maior){
+                maior = notas[i][k];
+            }if(notas[i][k] <= menor){
+                meio = menor;
+                menor = notas[i][k];
+            }
+
+        }ord_notas[i][0] = '0' + menor;
+        ord_notas[i][1] = '0' + meio;
+        ord_notas[i][2] = '0' + maior;
+        maior = 0;
+        menor = 11;
+
+    }if(arq2){
+        while((ch = fgetc(aux1)) != EOF) {
+            if(ch == 'A' || ch == 'B' || ch == 'C' || ch == 'D' || ch == 'E' || ch == 'F'
+               || ch == 'G' || ch == 'H' || ch == 'I' || ch == 'J' || ch == 'L' || ch == 'M'
+               || ch == 'N' || ch == 'O' || ch == 'P' || ch == 'Q' || ch == 'R' || ch == 'S'
+               || ch == 'T' || ch == 'U' || ch == 'V' || ch == 'W' || ch == 'X' || ch == 'Y'
+               || ch == 'Z'){
+                fputc(ch, arq2);
+            }if(ch == '\n'){
+                fputc('\t', arq2);
+                for(i = n1; i < tam; i++){
+                    for (k = 0; k < 3; k++){
+                        fputc(ord_notas[i][k], arq2);
+                        fputc(' ', arq2);
+                    }break;
+                }n1 ++;
+
+            }if(ch == '\n') {
+                fputc(ch, arq2);
+            }
+        }
     }
 
     fclose(arq1);
@@ -66,4 +109,8 @@ int main(){
     fclose(aux2);
 
     return 0;
+}
+
+int comparar(const void *a, const void *b) {
+    return (*(int *) a - *(int *) b);
 }

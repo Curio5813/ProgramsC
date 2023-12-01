@@ -5,29 +5,25 @@
 
 
 int main(){
-     int i = 2, k = 1, y, x, cont1 = 2, cont2 = 1, step = 0, resto, pairs[1000], n1 = 0,
-     steps[1000], n2 = 0, tam;
+     long long int i = 2, k = 1, y, x, step, resto;
 
-     while(i <= 10000){
-         while(k <= 1000000){
+     for(i = 1; i <= 1000000; i++){
+         for(k = 1; k <= 1000000; k++){
              step = 0;
-             if(k > i){
-                 y = i;
-                 x = k;
+             y = i;
+             x = k;
+             resto = x % y;
+             step += 1;
+             while(resto != 0) {
+                 x = y;
+                 y = resto;
                  resto = x % y;
                  step += 1;
-                 while(resto != 0) {
-                     x = y;
-                     y = resto;
-                     resto = x % y;
-                     step += 1;
-                 }if(step >= 20){
-                     printf("%d %d %d\n", k, i, step);
-                     break;
-                 }
-             }k += 1;
-         }i += 1;
-         k = i;
+             }if(step >= 20){
+                 printf("%d %d %d\n", k, i, step);
+                 break;
+             }
+         }
      }
 
     return 0;
