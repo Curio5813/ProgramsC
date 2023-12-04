@@ -1,0 +1,5 @@
+Economista	30
+Controler	37
+Advogado	38
+Contador	29
+Matematico	20

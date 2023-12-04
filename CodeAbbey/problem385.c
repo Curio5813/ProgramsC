@@ -5,25 +5,21 @@
 
 
 int main(){
-     long long int i = 2, k = 1, y, x, step, resto;
+     long long i = 2, k, div = 1, step, n, steps[100];
 
-     for(i = 1; i <= 1000000; i++){
-         for(k = 1; k <= 1000000; k++){
+     while(i <= 1000000){
+         for(k = 3; k <= 1000000; k++) {
              step = 0;
-             y = i;
-             x = k;
-             resto = x % y;
-             step += 1;
-             while(resto != 0) {
-                 x = y;
-                 y = resto;
-                 resto = x % y;
+             div = 1;
+             n = k;
+             while(n % div == 0){
                  step += 1;
+                 n = n / div;
+                 div += 1;
              }if(step >= 20){
-                 printf("%d %d %d\n", k, i, step);
-                 break;
+                 printf("%lld %lld %lld\n ", i, k, step);
              }
-         }
+         }i++;
      }
 
     return 0;
