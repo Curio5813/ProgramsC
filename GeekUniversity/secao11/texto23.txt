@@ -1,0 +1,5 @@
+Economista	23
+Advogado	30
+Contador	33
+Matematico	20
+Progrmador	23

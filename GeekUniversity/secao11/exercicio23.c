@@ -9,7 +9,7 @@ int main(){
     char linhas[1000][1000], prof[30], tempo[5];
 
 
-    arq = fopen("exercicio23.txt", "w");
+    arq = fopen("texto23.txt", "w");
 
     if(arq){
         for(int i = 0; i < 5; i++){
@@ -22,7 +22,13 @@ int main(){
     }else{
        printf("Arquivo não encontrado!");
     }
+    fclose(arq);
+    arq = fopen("texto23.txt", "r");
+    printf("\n");
 
+    while(fgets(linhas[100], sizeof(linhas), arq) != NULL) {
+        printf("%s", linhas[100]);
+    }
     fclose(arq);
 
     return 0;
