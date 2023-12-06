@@ -7,7 +7,7 @@ struct st_aluno{
 	char nome[100];
 	char curso[50];
 	int ano_nascimento;
-};
+}st_dados[3];
 
 
 
