@@ -4,14 +4,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
 struct st_alunos{
     char nome[50];
     int matricula;
     char curso[50];
-
-
 }alunos[5];
-
 
 
 int main(){
@@ -33,8 +31,6 @@ int main(){
         printf("Aluno: %s\n", strtok(alunos[i].nome, "\n"));
         printf("Matrícula: %d\n", alunos[i].matricula);
         printf("Curso: %s\n", strtok(alunos[i].curso, "\n"));
-
-
     }
 
     return 0;

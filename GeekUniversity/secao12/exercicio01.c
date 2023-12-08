@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct st_daddos{
+struct st_dados{
     char nome[50];
     int idade;
     char endereco[50];
