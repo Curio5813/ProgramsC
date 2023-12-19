@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 
+
 int binario(int n){
 
     if(n == 0){
@@ -18,12 +19,12 @@ int binario(int n){
 
 int main(){
 
-    int n; // 101
+    long long int n; // 101
 
     printf("Digite um número para converter para binário: ");
-    scanf("%d", &n);
+    scanf("%lld", &n);
 
-    printf("O número %d em binário é %d", n, binario(n));
+    printf("O número %lld em binário é %lld", n, binario(n));
 
     return 0;
 }
