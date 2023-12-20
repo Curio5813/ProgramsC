@@ -4,6 +4,5 @@ project(Program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Program
-        GeekUniversity/secao14/programa74.c
 
 )

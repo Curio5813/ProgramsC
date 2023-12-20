@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/marcos/Computacao/ProgramsC/Program/cmake-build-debu
 
 build cmake_object_order_depends_target_Program: phony || CMakeFiles/Program.dir
 
-build CMakeFiles/Program.dir/GeekUniversity/secao14/programa74.c.o: C_COMPILER__Program_unscanned_Debug /home/marcos/Computacao/ProgramsC/Program/GeekUniversity/secao14/programa74.c || cmake_object_order_depends_target_Program
-  DEP_FILE = CMakeFiles/Program.dir/GeekUniversity/secao14/programa74.c.o.d
+build CMakeFiles/Program.dir/GeekUniversity/secao15/stdio.h.c.o: C_COMPILER__Program_unscanned_Debug /home/marcos/Computacao/ProgramsC/Program/GeekUniversity/secao15/stdio.h.c || cmake_object_order_depends_target_Program
+  DEP_FILE = CMakeFiles/Program.dir/GeekUniversity/secao15/stdio.h.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Program.dir
-  OBJECT_FILE_DIR = CMakeFiles/Program.dir/GeekUniversity/secao14
+  OBJECT_FILE_DIR = CMakeFiles/Program.dir/GeekUniversity/secao15
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/Program.dir/GeekUniversity/secao14/programa74.c.o: C_COMPILER__
 #############################################
 # Link the executable Program
 
-build Program: C_EXECUTABLE_LINKER__Program_Debug CMakeFiles/Program.dir/GeekUniversity/secao14/programa74.c.o
+build Program: C_EXECUTABLE_LINKER__Program_Debug CMakeFiles/Program.dir/GeekUniversity/secao15/stdio.h.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Program.dir
   POST_BUILD = :
