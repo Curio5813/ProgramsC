@@ -1,6 +1,6 @@
 # ninja log v5
 0	118	1701880240021766712	CMakeFiles/Program.dir/CodeAbbey/problema385.c.o	b0338ed3e91e5560
-31	62	1702942351035226082	Program	cafaa2604eff1b0f
+97	159	1703602866772565571	Program	94cc50e5babbaab6
 0	32	1700067460635674619	CMakeFiles/Program.dir/exercicio14.c.o	63e89152475aad92
 0	131	1701274911037425428	CMakeFiles/Program.dir/exercicio21.c.o	33702b9d602b45e5
 1	32	1701810586278697521	CMakeFiles/Program.dir/problem385.c.o	5877883dbbd174bb
@@ -8,15 +8,22 @@
 0	41	1700842419488351701	CMakeFiles/Program.dir/exercicio18.c.o	a935a513afd6ba82
 0	30	1702916673778425756	CMakeFiles/Program.dir/exercicio02.c.o	86bc967ebb6cf91f
 0	41	1701790860111556104	CMakeFiles/Program.dir/GeekUniversity/secao11/exercicio23.c.o	d9c388721322dcf6
-0	22	1703092039106019679	build.ninja	ee826887e3d4798e
+0	53	1703261970226557082	CMakeFiles/Program.dir/GeekUniversity/secao15/programa57.c.o	d16705c351824091
+0	58	1703261593297812434	CMakeFiles/Program.dir/GeekUniversity/secao15/programa53.c.o	753c18fd516df7d0
 0	46	1700588833847730116	CMakeFiles/Program.dir/exercicio17.c.o	df65acdda933107b
+0	48	1703685914453205136	build.ninja	ee826887e3d4798e
 0	33	1700149370452455699	CMakeFiles/Program.dir/exercicio12.c.o	7ca98bf5a9189362
 0	47	1702404220796530333	CMakeFiles/Program.dir/beecrowd/fechem_as_portas.c.o	6bcde3d0e98b57e5
+0	97	1703602866712566063	CMakeFiles/Program.dir/GeekUniversity/secao15/programa72.c.o	28b7c1e739eee7fc
+0	40	1703261527782397907	CMakeFiles/Program.dir/GeekUniversity/secao15/programa52.c.o	115145fc84814665
+0	99	1703260113870042792	CMakeFiles/Program.dir/GeekUniversity/secao15/programa51.c.o	1decff8a4f76a151
+0	42	1703261150901958852	CMakeFiles/Program.dir/programa51.c.o	3ef580e0556f8938
 0	42	1700492184005757292	CMakeFiles/Program.dir/GeekUniversity/secao11/exercicio15.c.o	9ca65252a8bcc3a5
 0	34	1700499167622674436	CMakeFiles/Program.dir/exercicio16.c.o	83a35b138cfd0268
 0	28	1702409354962591206	CMakeFiles/Program.dir/main.c.o	a2b8953bcb746c42
 0	43	1701034549257766385	CMakeFiles/Program.dir/exercicio19.c.o	39e87f44682263ea
 0	34	1702916474336643101	CMakeFiles/Program.dir/exercicio01.c.o	ad0301684bdc691e
+0	74	1703261715640737247	CMakeFiles/Program.dir/GeekUniversity/secao15/programa54.c.o	664f497e88a31c1f
 0	33	1701790666909265552	CMakeFiles/Program.dir/exercicio23.c.o	4686362ed3bb023e
 0	31	1702917972534983475	CMakeFiles/Program.dir/GeekUniversity/secao13/exercicio03.c.o	893593484a8a5c40
 0	5	0	clean	ccef89c93c6ea0df
@@ -26,6 +33,8 @@
 0	34	1699981201992833518	CMakeFiles/Program.dir/exercicio13.c.o	21eee5f7b06b1d89
 0	33	1699868388410491305	CMakeFiles/Program.dir/exercicio11.c.o	eb5c35daa16b189
 0	42	1700492486284442509	CMakeFiles/Program.dir/exercicio15.c.o	35834f75a63bd5a0
+0	81	1703262207936568526	CMakeFiles/Program.dir/GeekUniversity/secao15/programa60.c.o	4783ea723e87389d
 0	29	1701810390063999256	CMakeFiles/Program.dir/CodeAbbey/problem385.c.o	1f5bf0c1d825160d
 0	28	1701811590631403523	CMakeFiles/Program.dir/teste001.c.o	31dc32052181e937
 0	31	1702942351007226452	CMakeFiles/Program.dir/exercicio03.c.o	369db156db909919
+0	70	1703262066805744850	CMakeFiles/Program.dir/GeekUniversity/secao15/programa58.c.o	81c0fb7b103e5430
