@@ -15,6 +15,7 @@
 int main(){
 	int *p, linhas = 3, colunas = 3;
 
+
 	p = (int*)malloc(linhas * colunas * sizeof(int));
 
 	for(int i =0; i < linhas; i++){
