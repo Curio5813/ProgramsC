@@ -4,7 +4,7 @@ project(Program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Program
-        beecrowd/crescimento_das_populacoes_de_bacilos.c
+
 )
 
 target_link_libraries(Program m)
