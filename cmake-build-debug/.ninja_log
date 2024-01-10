@@ -1,6 +1,6 @@
 # ninja log v5
 0	32	1704281595427027141	CMakeFiles/Program.dir/CodeAbbey/problema385.c.o	b0338ed3e91e5560
-66	125	1704388192106055928	Program	3ab99582f3cb856c
+34	69	1704391298141187416	Program	15e00d5721b698fd
 0	38	1703698782420026465	CMakeFiles/Program.dir/test.c.o	d35d11742badb11c
 0	32	1700067460635674619	CMakeFiles/Program.dir/exercicio14.c.o	63e89152475aad92
 0	131	1701274911037425428	CMakeFiles/Program.dir/exercicio21.c.o	33702b9d602b45e5
@@ -8,6 +8,7 @@
 1	32	1701810586278697521	CMakeFiles/Program.dir/problem385.c.o	5877883dbbd174bb
 0	34	1699868298162637828	CMakeFiles/Program.dir/GeekUniversity/secao11/exercicio11.c.o	3c4269a1399c003c
 0	41	1700842419488351701	CMakeFiles/Program.dir/exercicio18.c.o	a935a513afd6ba82
+0	34	1704391298105186819	CMakeFiles/Program.dir/GeekUniversity/secao17/programa78.c.o	ab79ae627e8e6e50
 0	30	1704266767140775365	CMakeFiles/Program.dir/beecrowd/contando_uns.c.o	82a80882fde890b
 0	30	1702916673778425756	CMakeFiles/Program.dir/exercicio02.c.o	86bc967ebb6cf91f
 0	39	1703700140783126238	CMakeFiles/Program.dir/fibo_test.c.o	23947c3128fa215a
@@ -15,7 +16,7 @@
 1	42	1704271308825627937	CMakeFiles/Program.dir/beecrowd/fibonacci_de_novo.c.o	2e75a1c80676c29a
 0	53	1703261970226557082	CMakeFiles/Program.dir/GeekUniversity/secao15/programa57.c.o	d16705c351824091
 0	58	1703261593297812434	CMakeFiles/Program.dir/GeekUniversity/secao15/programa53.c.o	753c18fd516df7d0
-0	24	1704390101250771670	build.ninja	ee826887e3d4798e
+0	24	1704827607477934071	build.ninja	ee826887e3d4798e
 0	46	1700588833847730116	CMakeFiles/Program.dir/exercicio17.c.o	df65acdda933107b
 0	33	1700149370452455699	CMakeFiles/Program.dir/exercicio12.c.o	7ca98bf5a9189362
 1	39	1703698220302417312	CMakeFiles/Program.dir/GeekUniversity/secao16/programa41.c.o	5890f42bd44bf1c8
@@ -49,7 +50,5 @@
 0	28	1701811590631403523	CMakeFiles/Program.dir/teste001.c.o	31dc32052181e937
 0	31	1702942351007226452	CMakeFiles/Program.dir/exercicio03.c.o	369db156db909919
 0	70	1703262066805744850	CMakeFiles/Program.dir/GeekUniversity/secao15/programa58.c.o	81c0fb7b103e5430
-0	39	1704391268180691221	CMakeFiles/Program.dir/GeekUniversity/secao17/programa78.c.o	ab79ae627e8e6e50
-40	80	1704391268220691884	Program	15e00d5721b698fd
-0	34	1704391298105186819	CMakeFiles/Program.dir/GeekUniversity/secao17/programa78.c.o	ab79ae627e8e6e50
-34	69	1704391298141187416	Program	15e00d5721b698fd
+0	101	1704827611670616857	CMakeFiles/Program.dir/GeekUniversity/secao17/programa80.c.o	73fdb8f0be9f87e0
+101	169	1704827611738591770	Program	41ac8c9d4d753742
