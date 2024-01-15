@@ -4,7 +4,7 @@ project(Program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Program
-        GeekUniversity/secao18/05-implementando-a-ordenacao-insert-sort.c
+        beecrowd/getline_one.c
 
 )
 
