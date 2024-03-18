@@ -4,8 +4,6 @@ project(Program C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Program
-        beecrowd/getline_one.c
-
 )
 
 target_link_libraries(Program m)
